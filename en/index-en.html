@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Import Coffee</title>
+		<link rel="icon" href="images/logos/icono_pestaña.png">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<link href="estilo.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	</head>
+	<body id="body_">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#" onclick="checkUrl('inde.html');">
+						<img class="img-responsive" src="images/logos/logo_white_full.png">
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index-en.html">Main page</a></li>
+						<li><a href="equipo-en.html">Team</a></li>
+						<li><a href="contacto-en.html">Contact</a></li>
+						<li><a href="https://guicalare.github.io/prueba/">Blog <span class="glyphicon glyphicon-wrench"></span></a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<form class="navbar-form navbar-left" style="margin-right:0px;margin-left:0px;color:#9d9d9d;">
+							<button type="button" class="btn btn-warning" onclick="dm()">Dark mode</button>
+						</form>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+								<span class="flag-icon flag-icon-gb"></span>
+								 English<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="../index.html" class="language" rel="sp"><span class="flag-icon flag-icon-es"></span> Español</a></li>
+								<li><a href="en/index-en.html" class="language" rel="en"><span class="flag-icon flag-icon-gb"></span> Ingles</a></li>
+								<li><a href="cn/index-cn.html" class="language" rel="ch"><span class="flag-icon flag-icon-cn"></span><span class="glyphicon glyphicon-wrench"></span> Chino</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	<div id="cabecera" style="margin-top:50px;background-color:rgb(17,17,17);">
+		<img class="img-responsive" src="images/inicio.jpg" style="display: block;margin-left: auto;margin-right: auto;">
+	</div>
+	<div class="container" style='min-height: 100vh;' id="container_">
+		<div class="jumbotron" style="background:transparent !important">
+			<h2><b>Welcome to the Import Coffee webpage</b></h2>
+			<p class="text-justify">
+				Welcome to the website of the programming association of the faculty of
+				statistical studies of the Universidad Complutense de Madrid (UCM). Here
+				you will find a lot of useful information as well as tutorials, so make
+				yourself comfortable, install your dependencies and import a coffee.
+			</p>
+				<div class="well" style="background-color: #f5f5f5 !important; color: black !important;">
+					pip install coffee <br> from Coffee import coffee
+				</div>
+			<h2><b>Our work in Import Coffee</b></h2>
+			<p class="text-justify">
+				We are a group of students from the Faculty of Applied Statistics at the
+				UCM, who are passionate about the world of technology and programming.
+				In Import Coffee we carry out a multitude of activities and projects
+				(from workshops and talks to computer applications as well as this
+				wonderful website).
+			</p>
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="serviceBox">
+						<div class="service-icon">
+							<a href="#">
+								<i class="fa fa-trophy"></i>
+							</a>
+						</div>
+						<div>
+							<h3>Projects and competitions</h3>
+							<p>
+								Whether it be a neural network application to find space debris, a meteorological station
+								or a portfolio management software, we code it here.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="serviceBox">
+						<div class="service-icon">
+							<a href="#">
+								<i class="fa fa-users"></i>
+							</a>
+						</div>
+						<div>
+							<h3>Workshops and seminars</h3>
+							<p>
+								As members of import coffee, we want to provide the university community with the opportunity
+								to learn about technology related topics in the easiest and most captivating way possible. 
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="serviceBox">
+						<div class="service-icon">
+							<a href="#">
+								<i class="fa fa-university"></i>
+							</a>
+						</div>
+						<div>
+							<h3>University life and health</h3>
+							<p>
+								We encourage the proper balance between enjoying leisure time and working. In the association itself,
+								students can find other members they can do cultural and open-air activities with, or anything,
+								to experience the university life to its fullest.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="footer text-center" style='background-color:#101010'>
+			</br>
+			<h2 class="white-text">With the collaboration of:</h2>
+			</br>
+			<div class='row' style='margin-right: 0px;margin-left: 0px'>
+				<div class="col-sm-4 col-md-4 col-lg-4">
+					<div class="media" style='padding:10px'>
+						<div class="media-body">
+							<h3 class="media-heading white-text">UCM</h3>
+							<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#ucm">More information</button>
+							<div class="modal fade" id="ucm" role="dialog">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<div style='margin-left:25%;margin-right:25%'>
+												<div class="media">
+													<div class="media-left">
+														<img src="images/ucm.gif" class="media-object" style="width:60px">
+													</div>
+													<div class="media-body">
+														</br>
+														<h4 class="media-heading">UCM</h4>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="modal-body">
+											<p>
+												Many thanks to the UCM and especially to the faculty of statistical studies for supporting this
+												association by providing us with the materials and advice we need.
+											</p>
+											<div class="btn-group btn-group-lg">
+												<a href='https://www.ucm.es/' type="button" class="btn btn-primary">UCM</a>
+												<a href='https://estudiosestadisticos.ucm.es/' type="button" class="btn btn-primary">Facultad de Estadistica</a>
+											</div>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-4 col-lg-4">
+					<div class="media" style='padding:10px'>
+						<div class="media-body">
+							<h3 class="media-heading white-text">Bla6</h3>
+							<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#bla6">More information</button>
+							<div class="modal fade" id="bla6" role="dialog">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<div style='margin-left:25%;margin-right:25%'>
+												<div class="media">
+													<div class="media-left">
+														<img src="images/bla6.jpg" class="media-object" style="width:60px">
+													</div>
+													<div class="media-body">
+														</br>
+														<h4 class="media-heading">Bla6</h4>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="modal-body">
+											<p>
+												Thanks to Bla6 for helping us with the resolution of problems and help for the creation of
+												this web. Bla6 is a professional web designer and Sysadmin. Don't forget to visit his Gitlab
+												to see his personal projects.
+											</p>
+											<a href='https://gitlab.com/bla6' class="btn btn-info" role="button">Gitlab</a>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-4 col-lg-4">
+					<div class="media" style='padding:10px'>
+						<div class="media-body">
+							<h3 class="media-heading white-text">Carlos</h3>
+							<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#carlos">More information</button>
+							<div class="modal fade" id="carlos" role="dialog">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<div style='margin-left:25%;margin-right:25%'>
+												<div class="media">
+													<div class="media-left">
+														<img src="images/avatar.png" class="media-object" style="width:60px">
+													</div>
+													<div class="media-body">
+														</br>
+														<h4 class="media-heading">Carlos</h4>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="modal-body">
+											<p class="text-justify">
+												Thanks to Carlos for his professional work in creating the logo for the association
+												as well as animations and other artwork.
+											</p>
+											<a href='https://www.behance.net/carlosalmendros8' class="btn btn-info" role="button">Behance</a>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</br>
+		</div>
+	</body>
+	<script>
+		function mantener_dm(){
+			if(localStorage.getItem('dm') == 'true'){
+				document.getElementById("container_").classList.add("dark-mode-container");
+				document.getElementById("body_").classList.add("dark-mode-body");
+			}else{
+				document.getElementById("container_").classList.remove("dark-mode-container");
+				document.getElementById("body_").classList.remove("dark-mode-body");
+			}		
+		}
+		function dm(){
+			if(localStorage.getItem('dm') == 'true'){
+				localStorage.setItem('dm', false);
+			}else{
+				localStorage.setItem('dm', true);
+			}
+			var element = document.getElementById("container_");
+			element.classList.toggle("dark-mode-container");
+			var element = document.getElementById("body_");
+			element.classList.toggle("dark-mode-body");
+		}
+		if(localStorage.getItem('dm') == null){
+			localStorage.setItem('dm', false);
+		}
+		mantener_dm();
+	</script>
+</html>

@@ -1,0 +1,161 @@
+.dark-mode-body{
+	background: #202830;
+}
+.dark-mode-container{
+	color:#f8f8ff;
+}
+.white-text{
+	color:#f8f8ff;
+}
+.navbar-brand>img {
+	max-height: 100%;
+	height: 100%;
+	width: auto;
+	margin: 0 auto;
+
+	-o-object-fit: contain;
+	object-fit: contain;
+
+}
+.our-team{
+    text-align: center;
+}
+.our-team .pic{
+    position: relative;
+}
+.our-team .pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.social_media_team{
+    background: rgba(59, 61, 66, 0.6);
+    border-radius: 50%;
+    transform: scale(0);
+    transition: all 0.35s ease-in-out 0s;
+    visibility: hidden;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.our-team:hover .social_media_team{
+    transform: scale(1);
+    visibility: visible;
+}
+.team_social{
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+    position: relative;
+    top:43%;
+    left:0;
+}
+.team_social > li{
+    display: inline-block;
+}
+.team_social > li > a{
+    width: 35px;
+    height: 35px;
+    display: block;
+    background: #5d5d5d;
+    line-height: 35px;
+    color:#fff;
+    transition: all 0.35s ease-in-out 0s;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.team_social > li > a:hover{
+    background: #31aab5;
+}
+.post-title > a{
+    color:black;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+.post-title > a:after{
+    content:"|";
+    color: #f0ad4e;
+    display: inline-block;
+    padding: 0 5px 0 10px;
+}
+.post-title small{
+    color:#999;
+    font-size: 12px;
+}
+.description{
+    color:#black;
+	text-align: none !important;
+}
+.read{
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+    color:#31aab5;
+}
+.read:hover{
+    color:#fff;
+}
+@media screen and (max-width: 990px){
+    .our-team{
+        margin-bottom: 30px;
+    }
+}
+
+.serviceBox{
+    padding: 30px 0;
+    text-align: center;
+}
+.serviceBox .service-icon {
+    background: #fff;
+    border: 5px solid #eea236;
+    border-radius: 15px;
+    width: 120px;
+    height: 120px;
+    line-height: 130px;
+    margin: 0 auto;
+}
+.serviceBox .service-icon i {
+    color: #3e454c;
+    font-size: 50px;
+}
+.serviceBox h3{
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.serviceBox p{
+    margin: 15px 0 30px;
+    padding: 0 20px;
+}
+.serviceBox .read a{
+    border: 1px solid #eea236;
+    background: #eea236;
+    border-radius: 5px;
+    color: #fff;
+    font: lighter 13px/18px;
+    padding: 14px 23px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+.serviceBox .read a:hover{
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #eea236;
+    text-decoration: none;
+}
+.service-content-dm{
+	
+}
+@media screen and (max-width: 767px){
+    .serviceBox{
+        padding: 20px 0;
+    }
+    .serviceBox p{
+        margin: 20px 0;
+    }
+}
